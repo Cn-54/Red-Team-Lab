@@ -21,13 +21,17 @@ The goal of this project is to understand vulnerabilities at a technical level b
 ```text
 red-team-lab/
 ├── README.md
-│
-├── exploits/
-│   └── CVE-2018-15473/
+├── exploits
+│   ├── CVE-2018-15473
+│   │   ├── README.md
+│   │   └── exploit.py
+│   └── CVE-2021-41773
 │       ├── README.md
 │       └── exploit.py
-│   
-└── labs/
-    └── CVE-2018-15473/
-        ├── README.md
-        └── Dockerfile
+└── labs
+    ├── CVE-2018-15473
+    │   ├── Dockerfile
+    │   └── README.md
+    └── CVE-2021-41773
+        ├── Dockerfile
+        └── README.md

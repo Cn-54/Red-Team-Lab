@@ -20,31 +20,32 @@ The goal of this project is to understand vulnerabilities at a technical level b
 
 ```text
 red-team-lab/
-├── README.md
-├── exploits/
-│   ├── CVE-2018-15473/
+├── CVE-2014-6271
+│   ├── Exploit
 │   │   ├── README.md
-│   │   └── exploit.py
-│   ├── CVE-2021-41773/
-│   │   ├── README.md
-│   │   └── exploit.py
-│   └── Shellshock(CVE-2014-6271)/
+│   │   ├── exploit.py
+│   │   └── images
+│   │       ├── after.png
+│   │       └── before.png
+│   └── Lab
+│       ├── Dockerfile
+│       ├── Packages
+│       │   └── bash_4.2%2Bdfsg-0.1_amd64.deb
 │       ├── README.md
-│       ├── exploit.py
-│       └── images
-│           ├── after.png
-│           └── before.png
-└── labs/
-    ├── CVE-2018-15473/
-    │   ├── Dockerfile
-    │   └── README.md
-    ├── CVE-2021-41773/
-    │   ├── Dockerfile
-    │   └── README.md
-    └── Shellshock(CVE-2014-6271)/
-        ├── Dockerfile
-        ├── Packages
-        │   └── bash_4.2%2Bdfsg-0.1_amd64.deb
-        ├── README.md
-        ├── end-point
-        └── index.html
+│       ├── end-point
+│       └── index.html
+├── CVE-2018-15473
+│   ├── Lab
+│   │   ├── Dockerfile
+│   │   └── README.md
+│   └── exploits
+│       ├── README.md
+│       └── exploit.py
+├── CVE-2021-41773
+│   ├── Exploit
+│   │   ├── README.md
+│   │   └── exploit.py
+│   └── Lab
+│       ├── Dockerfile
+│       └── README.md
+└── README.md

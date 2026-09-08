@@ -38,7 +38,7 @@ red-team-lab/
 │   ├── Lab
 │   │   ├── Dockerfile
 │   │   └── README.md
-│   └── exploits
+│   └── Exploit
 │       ├── README.md
 │       └── exploit.py
 ├── CVE-2021-41773
